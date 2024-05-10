@@ -116,6 +116,7 @@ def predict(theta,X):
     prob=sigmoid(np.dot(X_train,theta))
     return (prob>=0.5).astype(int)
 np.mean(predict(res.x,X)==y)
+*/
 ```
 ## Output:
 ### Array Value of x
@@ -169,5 +170,4 @@ np.mean(predict(res.x,X)==y)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
-*/
-```
+
